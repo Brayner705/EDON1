@@ -13,7 +13,13 @@
 </head>
 <body>
     <header class="header">
-        <div class="caja-contenedora">
+
+        <div class="contenedor-bars">
+            <img src="assets/icons/bars-solid.svg" class="bars" onclick="document.getElementById('')">
+        </div>
+
+        <a href="#"><img src="assets/img/logo.png" alt="EduON" class="imagen"></a>
+        <div class="caja-contenedora " id="menu">
             <a href="#"><img src="assets/img/logo.png" alt="EduON"></a>
             <form method="post">
                 <input type="text" name="buscar" placeholder="Buscar" class="input-buscar">
@@ -29,12 +35,16 @@
             <div class="inicio-sesion">
                 <a href="inicio-sesion.html"><button class="inicio-sesion-btn">Iniciar Sesion</button></a>
             </div>  
-            <div class="Registrate">
+            <div class="registrate">
                 <a href="registrate.html"><button class="registrate-btn">Registrate</button></a>
             </div>     
         </div>
+        <div class="prueba"></div>
     </header>
 
+    <!--MAIN-->
+
+    
     
 
    <!--::::Pie de Pagina::::::-->
@@ -70,5 +80,8 @@
         <small>&copy; 2022 <b>EDON</b> - Todos los Derechos Reservados.</small>
     </div>
 </footer>
+
+
+<script type="text/javascript" src="scripts/menuResponsive.js"></script>
 </body>
 </html>
