@@ -46,6 +46,13 @@ span{
     align-items: center;
     padding: 10px;
 }
+.caja-botones{
+        display: flex;
+        grid-row: 3/4;
+        grid-column: 1/4;
+        flex-wrap: wrap;
+}
+
 .header{    
     background-color: var(--color-secundario);
     box-shadow: 1px 3px 7px  #aaa;
@@ -84,12 +91,13 @@ form{
 .dropdown-btn {
     background-color: var(--color-principal);
     color: white;
-    padding: 16px;
+    padding: 16px 50px;
     font-size: 16px;
     border: none;
     cursor: pointer;
     border-radius: 10px;
     box-shadow: 1px 1px 2px rgb(77, 75, 102);
+    margin: 0 10px;
 }
 .contenedor-boton{
     position: absolute;
@@ -136,6 +144,7 @@ form{
     cursor: pointer;
     border-radius: 10px;
     box-shadow: 1px 1px 2px rgb(77, 75, 102);
+    margin: 0 10px;
 }
 .inicio-sesion-btn:hover{
     color: rgb(240, 235, 235);
@@ -151,6 +160,7 @@ form{
     cursor: pointer;
     border-radius: 10px;
     box-shadow: 1px 1px 2px rgb(77, 75, 102);
+    margin: 0 10px;
 }
 .registrate-btn:hover{
     color: rgb(240, 235, 235);
@@ -554,6 +564,12 @@ form{
         height: 50px;
         position: absolute;
     }
+    .caja-botones{
+        display: flex;
+        grid-row: 3/4;
+        grid-column: 1/4;
+        flex-wrap: wrap;
+    }
     .header{    
         background-color: var(--color-secundario);
         box-shadow: 1px 3px 7px  #aaa;
@@ -599,8 +615,7 @@ form{
         grid-row: 2/3;
         grid-column:  1/4;
         margin: auto;
-        width: 300px;
-        padding: 0 10px;
+        width: 250px;
     }
 
     .input-buscar{
@@ -616,7 +631,7 @@ form{
     .dropdown-btn {
         background-color: var(--color-principal);
         color: white;
-        padding: 15px 30px;
+        padding: 15px 50px;
         font-size: 16px;
         border: none;
         cursor: pointer;
@@ -631,6 +646,7 @@ form{
          grid-row: 3/4;
          margin:auto;
         grid-column: 1/2;
+        max-width: 140px;
     }
     .dropdown button{
             font-size: 13px;
@@ -680,6 +696,7 @@ form{
         cursor: pointer;
         border-radius: 10px;
         box-shadow: 1px 1px 2px rgb(77, 75, 102);
+        max-width: 140px;
     }
     .inicio-sesion-btn:hover{
         color: rgb(240, 235, 235);
@@ -688,7 +705,7 @@ form{
     .registrate{
         grid-column: 3/4;
         grid-row: 3/4;
-        margin:auto;
+        margin: 10px auto;
     }
     .registrate-btn{
         background-color: var(--color-principal);
@@ -701,6 +718,7 @@ form{
         box-shadow: 1px 1px 2px rgb(77, 75, 102);
         grid-column: 3/4;
         grid-row: 3/4;
+        max-width: 140px;
     }
     .registrate-btn:hover{
         color: rgb(240, 235, 235);
